@@ -1,4 +1,4 @@
-# DIMOHAMSTER - Nose-Controlled Breakout Game
+# SuperBall - Nose-Controlled Breakout Game for Android
 
 <div align="center">
 
@@ -15,7 +15,7 @@
 
 ## 📱 About
 
-DIMOHAMSTER is a native Android Breakout game with a unique twist: **control the paddle with your nose**! Using Google ML Kit for real-time face detection and a high-performance C++ game engine, players can enjoy classic brick-breaking gameplay through intuitive head movements.
+SuperBall is a native Android brick-breaker (Breakout) game with a unique twist: **control the paddle with your nose**! Using Google ML Kit for real-time face detection and a high-performance C++ game engine, players can enjoy classic brick-breaking gameplay through intuitive head movements.
 
 **Course:** CSD3156 Mobile and Cloud Computing Spring 2026
 **Project:** Team Project 1 - Native 2D Mobile Game
@@ -90,7 +90,7 @@ DIMOHAMSTER is a native Android Breakout game with a unique twist: **control the
 ### Project Structure
 
 ```
-DIMOHAMSTER/
+superball-nose-breakout/
 ├── app/src/main/
 │   ├── java/com/example/dimohamster/
 │   │   ├── MainActivity.kt              # Main activity
@@ -179,7 +179,6 @@ This project fulfills all CSD3156 requirements:
 - 💡 **Catch power-ups** for temporary advantages
 - 💡 **Use wide paddle power-up** to improve control
 - 💡 **Slow ball power-up** makes precise aiming easier
-- 💡 **Watch the wind indicator** at the top (affects ball trajectory)
 
 ### Settings
 - Tap the ⚙️ **Settings button** (top-right) to adjust:
@@ -202,12 +201,12 @@ This project fulfills all CSD3156 requirements:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/DIMOHAMSTER.git
-   cd DIMOHAMSTER
+   git clone https://github.com/finily1203/superball-nose-breakout.git
+   cd superball-nose-breakout
    ```
 
 2. **Open in Android Studio**
-   - File → Open → Select DIMOHAMSTER folder
+   - File → Open → Select the superball-nose-breakout folder
    - Wait for Gradle sync
 
 3. **Build the project**
@@ -238,7 +237,7 @@ This project fulfills all CSD3156 requirements:
 - [ ] **More brick types** - Explosive, moving, unbreakable bricks
 - [ ] **Boss battles** - Special levels with unique mechanics
 - [ ] **Online leaderboards** - Firebase integration
-- [ ] **Sound effects** - FMOD audio engine (infrastructure ready)
+- [ ] **FMOD audio** - FMOD engine is scaffolded but not yet wired to in-game events (sound effects and music currently use Android audio)
 - [ ] **More power-ups** - Laser paddle, sticky ball, etc.
 - [ ] **Themes** - Customizable visual styles
 - [ ] **Achievements** - Unlock system with rewards
@@ -275,9 +274,9 @@ This project is created for educational purposes as part of CSD3156 Mobile and C
 
 ## 📹 Demo
 
-**Demo Video:** [Link to demo video]
-**Presentation Video:** [Link to presentation]
-**GitHub Repository:** https://github.com/YOUR_USERNAME/DIMOHAMSTER
+**Demo Video:** https://drive.google.com/file/d/1MmhwTjYY4Bv1Y_7HZG_8UPj9_mHL9zUE/view?usp=sharing
+**Slides:** https://docs.google.com/presentation/d/1Ffu-3G4wiLjvZx22_M37cDh3f5oQbprDHBudWVZH7uE/edit?usp=sharing
+**Presentation Video:** https://drive.google.com/file/d/1-d4QPZPBGxRv-i-vAukp5CFh-15PT32d/view?usp=sharing
 
 ---
 
